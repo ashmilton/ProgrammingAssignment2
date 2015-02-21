@@ -15,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
   setsolve <- function(solve) m <<- solve     
   getsolve <- function() m                    
   list(set = set, get = get, setsolve = setsolve, getsolve = getsolve)
+}
 
 
 ## cacheSolve takes x <- makeCacheMatrix(x) as an argument. It checks to see if
